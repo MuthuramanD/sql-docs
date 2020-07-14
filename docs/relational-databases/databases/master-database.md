@@ -81,6 +81,7 @@ For a description of these database options, see [ALTER DATABASE &#40;Transact-S
 The following operations cannot be performed on the **master** database:  
   
 - Adding files or filegroups.  
+- Backup Type only as Full Backup, Choosing Diff/Partial Backup Type can expect Error
 - Changing collation. The default collation is the server collation.  
 - Changing the database owner. **master** is owned by **sa**.  
 - Creating a full-text catalog or full-text index.  
